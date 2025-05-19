@@ -86,6 +86,39 @@
         <mxCell id="BoM1s3GKUmok-ClIGxu0-33" value="Attach Access Grant to Social Agent Registration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="360" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-35" target="BoM1s3GKUmok-ClIGxu0-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-35" value="Delete Access Authorization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-36" target="BoM1s3GKUmok-ClIGxu0-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-36" value="Delete&lt;br&gt;Access Grant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-38" value="Send &lt;br&gt;Delete Activity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="194" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-39" target="BoM1s3GKUmok-ClIGxu0-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-39" value="Remove local copy&lt;br&gt;of Access Grant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-41" target="BoM1s3GKUmok-ClIGxu0-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-41" value="Look for related Delegated Access Grants" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-43" value="Delete Delegated Access Grant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="194" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-45" value="Delete Delegated&lt;br&gt;Access Grant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
