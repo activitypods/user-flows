@@ -1,9 +1,91 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.6">
   <diagram name="Page-1" id="Ux_hmwxhhsq3mp5FmAYR">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-1" target="BoM1s3GKUmok-ClIGxu0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-1" value="Create Access Authorization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-3" target="BoM1s3GKUmok-ClIGxu0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-3" target="BoM1s3GKUmok-ClIGxu0-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-3" value="Create &lt;br&gt;Access Grant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-4" value="Alice" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-5" target="BoM1s3GKUmok-ClIGxu0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-5" value="Store locally&lt;br&gt;Access Grant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-12" value="Send &lt;br&gt;Create Activity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="194" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-14" value="Bob" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-15" target="BoM1s3GKUmok-ClIGxu0-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-15" value="Register app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-16" target="BoM1s3GKUmok-ClIGxu0-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="450" />
+              <mxPoint x="170" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-16" value="Look for Access Authorizations with interop:All scope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-17" value="Call Delegation Issuance Endpoint" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="194" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-18" target="BoM1s3GKUmok-ClIGxu0-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="510" />
+              <mxPoint x="150" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-18" value="Create Delegated Access Grant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-25" value="Create Access Authorization for app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-27" target="BoM1s3GKUmok-ClIGxu0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-27" value="Send &lt;br&gt;Create Activity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="194" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BoM1s3GKUmok-ClIGxu0-29" target="BoM1s3GKUmok-ClIGxu0-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-29" value="Store Delegated&lt;br&gt;Access Grant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-31" value="Attach Delegated Access Grant to App Registration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BoM1s3GKUmok-ClIGxu0-33" value="Attach Access Grant to Social Agent Registration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
